@@ -1,6 +1,6 @@
-const abusiveWordsEn = require("./abusive-words-en");
-const abusiveWordsEs = require("./abusive-words-es");
-const abusiveWordsFr = require("./abusive-words-fr");
+const abusiveWordsEn = require("../data/abusive-words-en");
+const abusiveWordsEs = require("../data/abusive-words-es");
+const abusiveWordsFr = require("../data/abusive-words-fr");
 
 const abusiveWords = {
   en: new Set(abusiveWordsEn),
