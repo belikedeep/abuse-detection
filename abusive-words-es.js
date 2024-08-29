@@ -1,1 +1,1 @@
-module.exports = ['puta', 'mierda', 'cabrón', 'joder', 'coño', 'hostia'];
+module.exports = ["puta", "mierda", "cabrón", "joder", "coño", "hostia"];
