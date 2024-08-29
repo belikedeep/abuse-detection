@@ -1,0 +1,28 @@
+{
+  "name": "abuse-detection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "abuse",
+    "detection",
+    "multilingual",
+    "moderation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "A package to detect abusive words in multiple languages",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/belikedeep/abuse-detection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/belikedeep/abuse-detection/issues"
+  },
+  "homepage": "https://github.com/belikedeep/abuse-detection#readme"
+}
