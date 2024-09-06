@@ -1,6 +1,6 @@
 {
   "name": "abuse-detection",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
@@ -9,11 +9,17 @@
     "abuse",
     "detection",
     "multilingual",
-    "moderation"
+    "moderation",
+    "profanity",
+    "filter",
+    "content-moderation",
+    "language-detection",
+    "offensive-language",
+    "text-analysis"
   ],
   "author": "",
   "license": "MIT",
-  "description": "A package to detect abusive words in multiple languages",
+  "description": "A package to detect abusive words in multiple languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Russian, Chinese, Japanese, Korean, Arabic, and Hindi",
   "devDependencies": {
     "jest": "^29.7.0"
   },

@@ -29,6 +29,10 @@ console.log(detectAbuse("Esto es una prueba de mierda", "es"));
 console.log(detectAbuse("C'est un test de merde", "fr"));
 // Output: { hasAbusiveWords: true, abusiveWords: ['merde'], abusiveWordCount: 1 }
 
+// Detect abuse in German
+console.log(detectAbuse("Das ist ein scheiße Test", "de"));
+// Output: { hasAbusiveWords: true, abusiveWords: ['scheiße'], abusiveWordCount: 1 }
+
 // Clean text
 console.log(detectAbuse("This is a clean test"));
 // Output: { hasAbusiveWords: false, abusiveWords: [], abusiveWordCount: 0 }
@@ -49,14 +53,24 @@ console.log(detectAbuse("This is a badword test"));
 - English (en)
 - Spanish (es)
 - French (fr)
+- German (de)
+- Italian (it)
+- Portuguese (pt)
+- Dutch (nl)
+- Russian (ru)
+- Chinese (Simplified) (zh)
+- Japanese (ja)
+- Korean (ko)
+- Arabic (ar)
+- Hindi (hi)
 
 ## Adding New Languages
 
 To add support for a new language:
 
-1. Create a new file named `abusive-words-[lang-code].js` in the root directory.
+1. Create a new file named `abusive-words-[lang-code].js` in the `data` directory.
 2. Export an array of abusive words in the new language.
-3. Import the new file in `index.js` and add it to the `abusiveWords` object.
+3. Import the new file in `src/index.js` and add it to the `abusiveWords` object.
 
 ## API
 
