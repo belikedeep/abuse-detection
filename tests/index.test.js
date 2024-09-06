@@ -1,4 +1,8 @@
-const { detectAbuse, addCustomWords, removeCustomWords } = require("./index");
+const {
+  detectAbuse,
+  addCustomWords,
+  removeCustomWords,
+} = require("../src/index");
 
 describe("detectAbuse", () => {
   test("detects abusive words in English", () => {
